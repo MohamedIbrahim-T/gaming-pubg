@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.login-page{
+    background:rgba(0,0,0,0.12) url(Desktop\ -\ 1.jpg);
+    background-position: center;
+    background-blend-mode: color-burn;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100vh;
+
+}
+.forgot a{
+    text-decoration: none;
+}
+.password a{
+    text-decoration: none;
+}
+.form-1 input{
+    width: 83%;
+}
+.form {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+align-items: center;
+    max-width: 319px;
+   
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+   
+    -webkit-backdrop-filter: blur( 0.5px );
+    border-radius: 10px;
+    padding: 43px 30px 0px 29px;
+}
+.form-1 input:focus{
+    outline: none;
+}
+.head h2{
+    font-size: 39px;
+    line-height: 43px;
+    max-width: 57%;
+    font-weight: 600;
+}
+.head h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: yellow;
+    padding: 5px 0px 5px 0px;
+}
+.fa-solid, .fas {
+    font-weight: 800;
+    color: #626262;
+    font-size: 14px;
+    padding-right: 6px;
+}
+.username{
+background-color: #262626;
+padding: 9px;
+border-radius: 8px;
+margin-top: 14px;
+}
+.username input{
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    color: #cccccc;
+    font-weight: 400;
+    padding-left: 4px;
+    
+}
+.name{
+    background-color: #262626;
+    padding: 9px;
+    border-radius: 8px;
+    margin-top: 14px;
+    }
+    .name input{
+        border: none;
+        background: transparent;
+        font-size: 18px;
+        color: #cccccc;
+        font-weight: 400;
+        padding-left: 4px;
+    }
+.fa-regular, .far {
+    font-weight: 400;
+    color: #626262;
+    position: relative;
+    right: 3px;
+    top: 2px;
+}
+.password{
+background-color: #262626;
+padding: 9px;
+border-radius: 8px;
+margin-top: 14px;
+}
+.password input{
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    color: #cccccc;
+    font-weight: 400;
+    padding-left: 4px;
+
+}
+.agree{
+    padding: 10px 0px 10px 0px;
+    display: flex;
+        justify-content: center;
+        align-items: baseline;
+}
+.agree h5{
+    display: inline-block;
+    padding-left: 7px;
+    font-weight: 200;
+    position: relative;
+    bottom: 1px;
+}
+.agree input{
+    width: 17px;
+}
+.form-1 i{
+    position: relative;
+    top: 0;
+}
+.forgot h3{
+    font-size: 14px;
+    padding-top: 8px;
+    font-weight: 400;
+    color: yellow;
+    text-align: end;
+}
+.sign-button a{
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+}
+.sign-button button{
+    background-color: yellow;
+    padding: 7px 17px 7px 17px;
+    border: none;
+}
+hr{
+    margin-top: 17px;
+}
+.social h4{
+        font-size: 16px;
+        padding-top: 11px;
+        font-weight: 500;
+        text-align: center;
+}
+.social ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    padding-top: 9px;
+
+}
+.social ul li{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    padding-right: 14px;
+
+}
+.password{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.social ul li a{
+    font-size: 30px;
+}
+@media (max-width:367px){
+    .head h2{
+        max-width: 72%;
+    }
+}

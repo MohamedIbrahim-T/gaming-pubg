@@ -1,0 +1,608 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'kanit';
+    margin: 0;
+    padding: 0%;
+}
+
+.navbar{
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    padding: 10px 0px 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-blend-mode: lighten;
+
+}
+.logo h1{
+    color: white;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(0);
+}
+.nav-links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+.nav-links a li{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+nav{
+    position: relative;
+    z-index: 1;
+    background-color:#212529;
+}
+.nav-buttons{
+    margin-left: 14px;
+    display: flex;
+    column-gap: 9px;
+    }
+    .nav-buttons #log-in{
+        background-color: #fcfc08ed;
+        padding:8px 20px 8px 20px;
+        color: black;
+        border-radius: 4px;
+        border: transparent;
+    
+    }
+    #log-in a{
+        color: black;
+    }
+    #sign-up{
+        background-color: white;
+        padding: 8px 20px 8px 20px;
+        border-radius: 4px;
+        border: transparent;
+    }
+    #sign-up a{
+        color: black;
+    }
+    .nav-links a:hover{
+        color:#fcfc08ed;
+    }
+    #icon{
+        display: none;
+    }
+.banner{
+    background:url(assests/1144612.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+.hero-text img{
+    top: -84px;
+    left: 342px;
+    width: 52%;
+    position: absolute;
+    right: 10;
+    filter: drop-shadow(5px 5px 20px #000000);
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+.hero-text h1{
+    font-size: clamp(1.25rem, -1.1349rem + 12.7193vw, 10.3125rem);
+    color: transparent;
+    letter-spacing: 4px;
+    -webkit-text-stroke: white;
+    -webkit-text-stroke-width: 3px;
+    font-weight: 800;
+    line-height: 191px;
+}
+.hero-text h2{
+    position: relative;
+    color: #FFF512;
+    letter-spacing: 7px;
+    text-shadow: 0px 0px 7px rgb(255 255 0);
+    font-size: 142px;
+    text-align: center;
+    line-height: 151px;
+    font-weight: 700;
+
+
+}
+.hero-text h3{
+    color: yellow;
+    font-weight: 300;
+    letter-spacing: 7px;
+ position: relative;
+    line-height: 35px;
+}
+.hero-button{
+    text-align: center;
+    margin-top: 15px;
+    position: relative;
+
+}
+
+.hero-button button{
+    background-color: white;
+    padding: 12px 30px 12px 30px;
+    border: transparent;
+    border-radius: 3px;
+margin-bottom: 20px;
+}
+.hero-button button a{
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.hero-button img{
+    position: relative;
+    top: 5px;
+    width: 18px;
+    left: 10px;
+}
+.hero-button button:hover{
+background-color: #fcfc08ed;
+cursor: pointer;
+}
+.cards{
+    display: flex;
+    column-gap: 12px;
+justify-content: center;
+    margin: auto;
+    position: relative;
+    bottom: 16px;
+    
+
+}
+
+.card-1{
+    box-shadow: 1px 9px 17px 0px rgba(5,3,23,1);
+    display: flex;
+    background-color: #000000;
+    border: transparent;
+    border-radius: 7px;
+    padding: 14px 10px 14px;
+
+}
+.card-detail{
+    display: flex;
+    padding: 10px 13px 10px 13px;
+}
+.card-detail-1{
+    margin-left: 10px;
+}
+.card-detail h3{
+color: #ffff;
+font-weight: 300;
+}
+.card-detail h4{
+    color: #FFF512;
+    font-weight: 300;
+}
+.card-detail img{
+    background-color: white;
+    border-radius: 50%;
+width: 66px;
+}
+.body-information{
+    background-color:black;
+
+}
+/*tournament*/
+.tour-head{
+    text-align: center;
+    color: white;
+
+
+}
+.tourcdhead{
+    padding:0px 0px 2px 12px;
+}
+.tourcdby{
+    padding: 12px;
+}
+.tournament-card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    row-gap: 12px;
+    column-gap: 12px;
+}
+
+.tournaments{
+    margin-top: 20px;
+    padding-bottom: 40px;
+
+}
+.tour-head h2 {
+        padding-bottom: 10px;
+        text-shadow: 0px 0px 7px rgb(255 255 0);
+        font-size: clamp(1rem, 0.4079rem + 3.1579vw, 3.25rem);
+        color: yellow;
+}
+.tour-head h1{
+    font-size: clamp(1rem, -0.2336rem + 6.5789vw, 5.6875rem);
+    position: relative;
+    -webkit-text-stroke: white;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    opacity: 0.1;
+}
+.link-card{
+    border: 3px solid #b38501;
+    border-radius: 8px;
+    max-width: 436px;
+    transition: 0.2s ease-in-out;
+}
+.link-card:hover{
+    transform: scale(1.1);
+    
+}
+.tour-card-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.tourcdhead li{
+    text-decoration: none;
+    list-style: none;
+    color: #9B9B9B;
+    border-radius: 23px;
+    display: inline-block;
+    border: 1px solid #373737;
+    font-size: 12px;
+    padding: 1px 23px 1px 23px;
+}
+.tournaments a{
+    text-decoration: none;
+    border-radius: 8px;
+}
+.tourcdpara{
+    color: white;    
+    font-weight: 500;    
+    letter-spacing: 1px;
+    padding-left: 15px;
+    word-spacing: 1px;    
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 19px;
+
+}
+.tour-card-text{
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: #10121c;
+}
+.text{
+    color: white;
+    font-weight: 300;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.icon{
+    padding-right: 11px;
+}
+.tour-ico{
+    display: flex;
+}
+.tournament-box{
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-top: 8px;
+    padding: 10px 13px 10px 13px;
+    border-radius: 7px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 14px;
+}
+.tourcdregister{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 11px;
+    border-top-left-radius: 4px;
+    padding: 8px;
+    border-top-right-radius: 4px;
+    border-radius: 8px;
+}
+.tournament-box img{
+    position: relative;
+    bottom: 4px;
+    width: 26px;
+    padding-left: 9px;
+}
+.tourcdregister button{
+    border: transparent;
+    border-radius: 5px;
+    background-color:#FFF512;
+padding: 7px 15px 7px 15px;
+}
+.tourcdregister button a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.view-more button{
+    border: transparent;
+    border-radius: 5px;
+    background-color:#10121c;
+padding:10px 25px 10px 25px;
+transition: 0.2s ease-in-out;
+
+}
+.view-more{
+    text-align: center;
+    padding-bottom: 18px;
+}
+.view-more button a{
+    text-decoration: none;
+    color:#FFF512;
+    font-weight: 400;
+    font-size: 18px;
+}
+.view-more button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+/*live-stream*/
+.stream-head h2 {
+    padding-bottom: 10px;
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.66);
+    font-size: 66px;
+    color: black;
+}
+
+.img-1 img{
+    position: absolute;
+    top: 118%;
+    opacity: 0.1;
+
+}
+.live-stream{
+text-align: center;
+background-blend-mode: color-burn;
+background: rgba(0, 0, 0, 0.668) url(assests/Pubg\ Thumbnail\ Background\ Download__SandyZooming\ On\ Youtube\ ♥.jfif);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.stream-video{
+    max-width: 64%;
+    height: 38rem;
+    padding-bottom: 25px;
+    margin: auto;
+    bottom: 61px;
+}
+/*mission card*/
+.mission-card{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+    max-width: 78%;
+    row-gap: 12px;
+    z-index: 1;
+    margin: auto;
+    column-gap: 12px;
+    padding-bottom: 20px;
+}
+.mission-card-1{
+    background-color: #ffff00de;
+    box-shadow: 1px 9px 10px -6px rgb(241 229 0 / 81%);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 22px;
+    max-width: 334px;
+}
+.mission-img img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 18%;
+    opacity: 0.2;
+}
+.mission-head h3{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+}
+.mission-head p{
+    font-size: 17px;
+    font-weight: 300;
+    color: #373737;
+    text-align: left;
+
+}
+
+.our-mission{
+background-color: #000000;
+position: relative;
+padding-bottom: 30px;
+}
+.our-head{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.our-head h2{
+    padding-bottom: 10px;
+    text-shadow: 0px 0px 7px rgb(255 255 0);
+    font-size: 66px;
+    color: yellow;
+}
+.star-play{
+    background-image: url(assests/banner-img.jpg);
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.stop{
+   padding: 30px;
+    display: inline-block;
+    
+}
+.stop h1{
+    font-size: clamp(1rem, 0.3914rem + 3.2456vw, 3.3125rem);
+    font-weight: 900;
+}
+.stop h3{
+    color: yellow;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 13px;
+}
+.stop button{
+        margin-top: 21px;
+        padding: 11px 26px 11px 26px;
+        border: none;
+        border-radius: 2px;
+        background-color: #ffff;
+}
+.stop button a{
+    color: #000000;
+    text-decoration: none;
+}
+.stop button:hover,button{
+    background-color: #FFF512;
+    cursor: pointer; 
+}
+.footer{
+    background-color: #000000;
+}
+
+.footer-main{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    max-width: 78%;
+    margin: auto;
+    padding-top: 34px;
+}
+
+.footer-1{
+    width: 426px;
+}
+.footer-1 h2{
+    color: yellow;
+
+}
+.footer-1 li{
+    color: #9B9B9B;
+}
+.footer-1 h3{
+    color: #373737;
+}
+.footer-2{
+    padding-right: 10px;
+}
+.footer-2,.footer-3 h3{
+    color: #e0c513e8;
+}
+.footer-1 li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 7px 0px 7px 0px;
+}
+.footer-1 h3{
+    font-weight: 200;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 5px 0px 5px 0px;
+}
+.footer-main a{
+    text-decoration: none;
+}
+.footer-3 li a{
+    color: white;
+}
+.footer-main li{
+    list-style: none;
+    padding-bottom: 8px;
+}
+.footer-3 .follow-us ul {
+    display: flex;
+    padding-top: 10px;
+}
+.footer-2 li a{
+    color: white;
+    padding-bottom: 6px;
+}
+.footer-3 li img{
+    width: 36px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.footer-main a:hover{
+    color: #FFF512;
+}
+.send-message button{
+    max-width: 309px;
+    padding: 10px;
+    margin-top: 16px;
+    background-color: #e0c513e8;
+    border: none;
+    border-radius: 6px;
+}
+.send-message button a{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+}
+.send-text input{
+   max-width: 308px;
+    height: 43px;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid yellow;
+}
+.send-message button a:hover,button{
+cursor: pointer;
+
+}
+.copyright h3{
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+    word-spacing: 1px;
+}
+.copyright {
+    padding: 9px;
+   
+}
+.footer hr{
+    margin-top: 18px;
+    border: 1px solid grey;
+}

@@ -1,0 +1,14 @@
+@media screen and (max-width:375px)
+{
+   .password input{
+    padding-left: 0px;
+    max-width: 165px;
+   }
+   .username input{
+    padding-left: 0;
+    max-width: 165px;
+   }
+   
+}
+@media screen  and (max-width:320px){
+    ]
